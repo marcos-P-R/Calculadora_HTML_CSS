@@ -27,18 +27,17 @@ span{
     grid-column:span 4;
     height: 100px;
     text-align: right;
-    border: none;
+    border: 3px solid rgba(123,31,162 ,0.9);
     outline: none;
     padding: 10px;
-    font-size: 10px;
 }
 
 .calc span{
     height: 60px;
     width: 60px;
     color: #ffffff;
-    background-color: #9b59b6;
-    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #1976D2;
+    border: 1px solid rgba(123,31,162 ,1);
     place-items: center;
 }
 
@@ -50,7 +49,7 @@ span{
 .calc span.clear{
     grid-column: span 2;
     width: 120px;
-    background: #f1c40f;
+    background: rgba(187,222,251 ,1);
 }
 
 .calc span.plus{
@@ -59,5 +58,5 @@ span{
 }
 
 .calc span.equal{
-    background: #3498db;
+    background: rgba(239,83,80 ,1);
 }
